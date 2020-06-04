@@ -1,14 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="InstrumPro:jar">
+  <artifact type="jar" name="InstrumPro:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/InstrumPro_jar</output-path>
-    <root id="archive" name="InstrumPro_jar.jar">
+    <root id="archive" name="InstrumPro.jar">
       <element id="module-output" name="InstrumPro" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/jSerialComm-1.3.9.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/jackcess-2.1.8.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/mysql-connector-java-5.1.42-bin.jar" path-in-jar="/" />
-      <element id="file-copy" path="C:/xampp/mysql/data/rgb_names/rgb_table.ibd" />
-      <element id="file-copy" path="C:/xampp/mysql/data/rgb_names/db.opt" />
-      <element id="file-copy" path="C:/xampp/mysql/data/rgb_names/rgb_table.frm" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/jSerialComm-1.3.9.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
